@@ -4,3 +4,5 @@ applications:
   path: .
   buildpack: nodejs_buildpack
   memory: 128M
+  command: npm run start:prod
+  
