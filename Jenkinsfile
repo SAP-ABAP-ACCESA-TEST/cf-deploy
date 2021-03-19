@@ -10,8 +10,8 @@ node() {
     }
     
     stage('deploy') {
-    cloudFoundryDeploy script: this
-}
+        cloudFoundryDeploy script: this
+    }
 }
 
 
