@@ -1,8 +1,9 @@
 ---
 applications:
 - name: sapcpcfhw
-  path: .
-  buildpack: nodejs_buildpack
+  path: deployment/
+    buildpacks:
+      - nodejs_buildpack
   memory: 128M
   command: npm run start:prod
   stack: windows
