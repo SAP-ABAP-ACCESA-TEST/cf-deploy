@@ -7,4 +7,5 @@ modules:
   - name: piper.node.hello.world
     type: nodejs
     path: .
-    buildpack: nodej_buildpack
+    parameters:
+      buildpack: nodejs_buildpack
