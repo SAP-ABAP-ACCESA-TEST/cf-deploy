@@ -8,4 +8,4 @@ modules:
     type: nodejs
     path: .
     parameters:
-      buildpack: nodejs_buildpack
+      buildpack: https://github.com/cloudfoundry/nodejs-buildpack/releases/download/v1.7.25/nodejs-buildpack-cflinuxfs3-v1.7.25.zip
