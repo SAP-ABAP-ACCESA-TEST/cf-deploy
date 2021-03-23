@@ -3,7 +3,7 @@ applications:
 - name: sapcpcfhw
   path: deployment/
     buildpacks:
-      - nodejs_buildpack
+      - https://github.com/cloudfoundry/nodejs-buildpack/releases/download/v1.7.25/nodejs-buildpack-cflinuxfs3-v1.7.25.zip
   memory: 128M
   command: npm run start:prod
   stack: windows
